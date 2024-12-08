@@ -20,7 +20,6 @@ for (let arr of data) {
       decreasing = false;
     }
 
-
     const diff = Math.abs(arr[i] - arr[i + 1])
     if (diff > 3 || diff < 1) {
       safe = false;
